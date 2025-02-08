@@ -1,0 +1,202 @@
+.content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+
+}
+
+/* We want to give the content area some more padding */
+.content {
+    padding: 1em 1em 3em;
+}
+
+/* This is the class used for the main content headers (<h2>) */
+.content-head {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2em 0 1em;
+}
+
+/* This is a modifier class used when the content-head is inside a ribbon */
+.content-head-ribbon {
+    color: rgb(80, 34, 34);
+}
+
+/* This is the class used for the content sub-headers (<h3>) */
+.content-subhead {
+    color: #1f8dd6;
+}
+    .content-subhead i {
+        margin-right: 7px;
+    }
+
+/* This is the class used for the dark-background areas. */
+.ribbon {
+    background: #2d3e50;
+    color: #aaa;
+}
+
+.splash-container {
+    z-index: 1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash {
+    /* absolute center .splash within .splash-container */
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* This is the main heading that appears on the blue section */
+.splash-head {
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid #98d0f1;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+    background-color: #98d0f1;
+}
+
+/* This is the subheading that appears on the blue section */
+.splash-subhead {
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+    background-color: #98d0f1;
+    border: 3px solid #98d0f1;
+}
+body {
+    color: #064fa2;
+    /* background-color: #98d0f1; */
+    background-image: url("https://houserentaldanang.com/wp-content/uploads/2023/09/Vi-sao-da-nang-lai-thu-hut-nhieu-khach-du-lich-1.jpg");
+}
+
+.l-box {
+    padding: 2em;
+}
+
+.header .pure-menu {
+    border-bottom-color: black;
+    border-radius: 0;
+}
+
+.pure-menu-link {
+    padding: 1em .7em;
+}
+
+.photo-box, .text-box {
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+    text-align: center;
+}
+
+.photo-box-thin {
+    height: 120px;
+}
+
+
+    .photo-box img {
+        max-width: 100%;
+        height: auto;
+        min-height: 250px;
+    }
+
+    .photo-box aside {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 1em 0.5em;
+        color: 98d0f1;
+        width: 100%;
+        font-size: 80%;
+        text-align: right;
+        background: linear-gradient(to bottom,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00101b1e', endColorstr='#0c0202',GradientType=0 ); /* IE6-9 */
+
+    }
+
+    .photo-box aside span {
+        color: #aaa;
+    }
+
+        .photo-box aside span a {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+.text-box {
+    background: #98d0f1;
+    color: #ec1f25; 
+}
+
+    .text-box-head {
+        color: #064fa2;
+        padding-bottom: 0.2em;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 24px;
+    }
+
+    .text-box-subhead {
+        font-weight: normal;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+
+.form-box {
+    text-align: center;
+    font-size: 120%;
+    border-bottom: 1px solid #98d0f1;
+}
+
+    .form-box .pure-button {
+        background-color: #61B842;
+        color: #98d0f1;
+        vertical-align: top;
+        font-size: 85%;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-radius: 4px;
+        margin: 0.3em;
+    }
+    .pure-form input[type] {
+        margin: 0.3em auto;
+        text-align: center;
+    }
+
+.footer {
+    background: #111;
+    color: #666;
+    text-align: center;
+    padding: 1em;
+    font-size: 80%;
+}
+
+@media (min-width: 30em) {
+    .photo-box, .text-box {
+        text-align: left;
+    }
+
+    .photo-box-thin {
+        height: 250px;
+    }
+}
