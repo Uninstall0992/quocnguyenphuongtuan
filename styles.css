@@ -123,13 +123,7 @@
     line-height: 1em;
     background-color: #98d0f1;
 }
-.bg-image{
-    background-image: url("2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
+
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     letter-spacing: 0.05em;
