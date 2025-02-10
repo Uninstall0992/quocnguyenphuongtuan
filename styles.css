@@ -3,13 +3,12 @@
     height: auto;
 }
 
-.bg-image{
+.bg-image {
     background-image: url("2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
-  }
+}
 
 .hvr-grow {
     display: inline-block;
@@ -93,7 +92,7 @@
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 450%;
+    font-size: 5vw;
     font-weight: bold;
     color: white;
     line-height: 1em;
@@ -103,6 +102,7 @@
 .splash-subhead {
     letter-spacing: 0.05em;
     opacity: 0.8;
+    font-size: 3vw;
     background-color: #98d0f1;
     border: 3px solid #98d0f1;
 }
