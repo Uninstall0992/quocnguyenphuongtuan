@@ -4,10 +4,11 @@
 }
 
 .bg-image {
-    background-image: url("2.jpg");
+    background-image: url("//wsrv.nl/?url=//wallpapercave.com/wp/wp7311681.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .hvr-grow {
