@@ -93,24 +93,24 @@
     bottom: 0;
     right: 0;
     text-align: center;
-    text-transform: uppercase;
+    
 }
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
     font-size: 3vw;
-    
+    font-weight: bold;
     color: white;
     line-height: 1em;
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-   
+    letter-spacing: 0.05em;
     opacity: 0.8;
     font-size: 2vw;
-   
-    
+    background-color: #98d0f1;
+    border: 3px solid #98d0f1;
 }
 
 body {
