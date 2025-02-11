@@ -3,6 +3,13 @@
     height: auto;
 }
 
+.bg-image {
+    background-image: url("https://wsrv.nl/?url=//wallpapercave.com/wp/wp7311681.jpg&il&w=1920&h=1080q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
 
 .hvr-grow {
     display: inline-block;
@@ -91,7 +98,7 @@
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: bold;
     color: white;
     line-height: 1em;
@@ -101,7 +108,7 @@
 .splash-subhead {
     letter-spacing: 0.05em;
     opacity: 0.8;
-    font-size: 3vw;
+    font-size: 2vw;
     background-color: #98d0f1;
     border: 3px solid #98d0f1;
 }

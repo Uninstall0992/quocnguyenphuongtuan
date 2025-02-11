@@ -9,16 +9,15 @@
 
   <!-- CSS của Purecss để tạo bảng chia tỉ lệ tự động theo màn hình thiết bị. -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" />
-  <!-- CSS của animate.css để tạo hiệu ứng HTML. -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- CSS của Purecss để tạo bảng chia tỉ lệ tự động theo màn hình thiết bị. -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
   <!-- CSS của Vidstack để chạy video Youtube.  -->
-  <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" />
   <!-- CSS của toàn trang web. -->
   <link rel="stylesheet" href="styles.css" />
   <!-- CSS của menu nằm ngang. -->
   <link rel="stylesheet" href="menu.css" />
+
 
   <link rel="prefetch" href="bana.html"/>
   <link rel="prefetch" href="caurong.html" />
@@ -27,7 +26,9 @@
 
 </head>
 
-<body>
+
+<body style="background-color: blue;">
+
   <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed pure-menu-scrollable">
       <ul class="pure-menu-list">
@@ -41,8 +42,8 @@
     </div>
   </div>
 
-  <div class="splash-container">
-    <div class="splash">
+  <div class="splash-container bg-image">
+    <div class="splash hvr-bounce-in">
       <h1 class="splash-head">Đà Nẵng</h1>
       <p class="splash-subhead">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -53,7 +54,7 @@
 
   <div class="content-wrapper">
     <div class="pure-g">
-      <div class="photo-box pure-u-1">
+      <div class="photo-box pure-u-1 hvr-shrink">
         <a href="bana.html">
           <img class="pure-img"
             src="https://wsrv.nl/?url=https://motogo.vn/wp-content/uploads/2019/11/11-toan-canh-ba-na-1554385320042306734627.jpg"
@@ -66,8 +67,10 @@
         </aside>
       </div>
 
-      <div class="photo-box pure-u-1">
-        <a href="https://wsrv.nl/?url=https://haycafe.vn/wp-content/uploads/2022/01/Hinh-anh-cau-Rong-dep-tuyet-voi.jpg" class="img" alt="Cầu rồng">
+
+
+      <div class="photo-box pure-u-1 hvr-shrink">
+        <a href="caurong.html" class="img" alt="Cầu rồng">
           <img class="pure-img"
             src="https://wsrv.nl/?url=https://haycafe.vn/wp-content/uploads/2022/01/Hinh-anh-cau-Rong-dep-tuyet-voi.jpg"
             alt="Cầu rồng" />
@@ -80,7 +83,7 @@
         </aside>
       </div>
 
-      <div class="photo-box pure-u-1">
+      <div class="photo-box pure-u-1 hvr-shrink">
         <a href="mykhe.html">
           <img class="pure-img"
             src="https://wsrv.nl/?url=https://owa.bestprice.vn/images/destinations/uploads/bai-bien-my-khe-542bc385afcf9.jpg"
@@ -94,7 +97,7 @@
         </aside>
       </div>
 
-      <div class="photo-box pure-u-1">
+      <div class="photo-box pure-u-1 hvr-shrink">
         <a href="linhung.html">
           <img class="pure-img" src="https://wsrv.nl/?url=https://baolongbrass.com/Uploads/images/tin-tuc/chua-linh-ung.jpg"
             alt="Chùa Linh Ứng" />
@@ -106,12 +109,7 @@
           </span>
         </aside>
       </div>
-      <div class="pure-u-1">
-        <div style="background-color: #98d0f1" class="l-box">
-          <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
-          </iframe>
-        </div>
-      </div>
+
     </div>
 
     <div class="footer">
